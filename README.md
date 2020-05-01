@@ -1,4 +1,4 @@
-# Udacity Front End Nanodegree - Trave App Project
+# Udacity Front End Nanodegree - Travel App Project
 
 This **Travel App Project** source code is submitted to [Udacity](https://www.udacity.com/ "Udacity") for reviewing purposes.
 
@@ -16,18 +16,18 @@ up no results (good for obscure localities).
 * Allow the user to add travel remarks.
 * Allow user to print their trip and/or export to PDF.
 * Validation: Required fields, minimum date input and location.
-* Processing Message: Display a processing message after passing the basic validations.
-* Custom Date Format: Customize the default date format.
+* Processing message: Display a processing message after passing the basic validations.
+* Custom date format: Customize the default date format.
 * Close button: to close output pop-up screen.
 
 ## 3. API Credentials
 
 * Create an user account at [Geonames](https://www.geonames.org/ "Geonames"), [WeatherBit](https://www.weatherbit.io/ "WeatherBit") and [Pixabay](https://pixabay.com/ "Pixabay") respectively to obtain the API keys.
-* Create a file names `.env` with the following code and your API credentials.
+* Create a file named `.env` with the following code and your API credentials.
 ```
-GEONAMES_USER=***your Geonames username***
-WEATHERBIT_KEY=***your WeatherBit API key***
-PIXABAY_KEY=***your Pixabay API key***
+GEONAMES_USER=your Geonames username
+WEATHERBIT_KEY=your WeatherBit API key
+PIXABAY_KEY=your Pixabay API key
 ```
 
 ## 4. Installation Guide
