@@ -1,5 +1,8 @@
-export function handleSubmit(event) {
+// Generate Button
 
+const handleSubmit = document.querySelector('.generate-button');
+
+handleSubmit.addEventListener('click', () => {
 
     event.preventDefault();
 
@@ -170,4 +173,6 @@ export function handleSubmit(event) {
             console.log('*** Sucessful form input and output. ***');
         }
     })
-}
+})
+
+module.exports = handleSubmit;
